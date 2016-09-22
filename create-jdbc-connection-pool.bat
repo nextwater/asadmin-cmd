@@ -1,0 +1,1 @@
+asadmin create-jdbc-connection-pool --datasourceclassname=org.postgresql.ds.PGSimpleDataSource --driverclassname=org.postgresql.Driver --restype=javax.sql.DataSource --property user=postgres:password=pass:serverName=localhost:portNumber=5432:databaseName=dbName pgDbPool
