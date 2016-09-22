@@ -2,6 +2,12 @@
 create jdbc connection pool for postgres database<br>
 test ping connection pool<br>
 create jdbc resource<br>
+<p>
+first, copy postgres jdbc driver jar file to this directory:
+</p>
+<p>
+C:\Program Files\glassfish-4.1.1\glassfish\lib
+</p>
 <ul>
 <li>
 asadmin create-jdbc-connection-pool --datasourceclassname=org.postgresql.ds.PGSimpleDataSource --driverclassname=org.postgresql.Driver --restype=javax.sql.DataSource --property user=postgres:password=pass:serverName=localhost:portNumber=5432:databaseName=dbName pgDbPool
