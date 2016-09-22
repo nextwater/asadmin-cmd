@@ -1,4 +1,4 @@
 # asadmin-cmd
-create jdbc connection pool for postgres database
-test ping connection pool
-create jdbc resource
+create jdbc connection pool for postgres database<br>
+test ping connection pool<br>
+create jdbc resource<br>
